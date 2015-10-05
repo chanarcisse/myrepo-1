@@ -10,6 +10,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 
 ```r
+x <- rnorm(100)
 knitr::kable(head(cars))
 ```
 
